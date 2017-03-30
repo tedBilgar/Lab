@@ -45,11 +45,7 @@ public class Main {
             parseNote(url);
             //articleList.add(new Article(url, title));
         }
-
-
-        /*for (Article a: articleList) {
-            System.out.println(a.getName()+" "+a.getUrl());
-        }*/
+        
     }
 
     void findRef(Elements elements) {
@@ -67,5 +63,7 @@ public class Main {
 
     }
 
-    
+    class Example {
+        private String text;
+    }
 }
